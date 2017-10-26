@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  body {
+    margin: 0;
+    height: 100%;
+    background: #5DAB7C;
+
+    #root {
+      height: 100%;
+      display: flex;
+      flex: 1 0 auto;
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+.event-list {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+
+  .title.is-4 {
+    color: #5DAB7C;
+  }
+}

@@ -1,0 +1,32 @@
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+
+  .hero {
+    flex: 0 0 auto;
+    margin: 10px;
+
+    .hero-head .title {
+      color: #4C3800;
+    }
+
+    .breadcrumb {
+      color: #DBB561;
+      a {
+        color: #4C3800;
+      }
+    }
+
+  }
+
+  .columns {
+    flex: 1 1 auto;
+
+    .column {
+      overflow: auto;
+    }
+  }
+}
+
